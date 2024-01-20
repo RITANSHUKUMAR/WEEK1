@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+h1{
+    font-family: 'Lobster', sans-serif;
+}
+
+h2{ font-family:'Lobster', sans-serif}
+
+#texts{
+color:#fff8dc;
+font-weight: bold;
+text-align: right;
+
+}
+
+#heading{
+  text-align: center;
+  font-weight: 500;
+}
+
+.head {
+    display:flex;
+    justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+      background: url(bg.jpeg);
+      background-size: cover;
+}
+
+.singlepic1 {
+display:flex;
+justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: url(bg1.jpg);
+  background-size: cover;
+}
+
+.singlepic2 {
+    display:flex;
+    justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+      background: url(bg2.jpg);
+      background-size: cover;
+}
+
+ .singlepic3 {
+        display:flex;
+        justify-content: center;
+          align-items: center;
+          height: 100vh;
+          width: 100%;
+          background: url(bg3.jpg);
+          background-size: cover;
+ }
+
+ .pic1 {
+    padding: 100px;
+    height: 65vh;
+    width: auto;
+        margin-bottom: 20px;
+  }
+
+  .pic2 {
+    padding: 100px;
+    height: 65vh;
+    width: auto;
+        margin-bottom: 20px;
+  }
+
+  .pic3 {
+    padding: 100px;
+    height: 65vh;
+    width: auto;
+        margin-bottom: 20px;
+  }
+
+  li{list-style:none;}
