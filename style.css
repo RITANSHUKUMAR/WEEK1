@@ -1,82 +1,152 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+
+* {
+
+  margin: 0;
+  padding: 0;
+}
+
+.body
+{
+ 
+  margin: 0%;
+
+}
+
+
+.head {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+      background: url(bg.jpeg) no-repeat;
+      background-size: cover;
+}
+
+#heading
+{
+  color:pink;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+}
+#name
+{
+ 
+  color: whitesmoke;
+}
+
 h1{
+ 
     font-family: 'Lobster', sans-serif;
 }
 
 h2{ font-family:'Lobster', sans-serif}
 
-#texts{
-color:#fff8dc;
-font-weight: bold;
-text-align: right;
+#texts
+{
+  color:#fff8dc;
+  font-weight: bold;
+  float: right;
+}
+
+#textbox{
+
 
 }
 
-#heading{
-  text-align: center;
-  font-weight: 500;
+.pics
+{
+
 }
 
-.head {
-    display:flex;
-    justify-content: center;
-      align-items: center;
-      height: 100vh;
-      width: 100%;
-      background: url(bg.jpeg);
-      background-size: cover;
+
+.main{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background: no-repeat;
 }
 
-.singlepic1 {
+.box1 {
+  flex-direction: row;
+  position: relative;
 display:flex;
-justify-content: center;
-  align-items: center;
+flex-wrap: nowrap;
+justify-items:space-between;
+align-items:center;
+justify-content: space-around;
+  
+
   height: 100vh;
   width: 100%;
-  background: url(bg1.jpg);
+  background: url(bg1.jpg) no-repeat;
   background-size: cover;
 }
 
-.singlepic2 {
-    display:flex;
-    justify-content: center;
-      align-items: center;
+.box2 {
+  
+  flex-direction: row;
+  position: relative;
+display:flex;
+flex-wrap: nowrap;
+justify-items:space-between;
+align-items:center;
+justify-content: space-around;
+
+
       height: 100vh;
       width: 100%;
-      background: url(bg2.jpg);
+      background: url(bg2.jpg) no-repeat;
       background-size: cover;
 }
 
- .singlepic3 {
-        display:flex;
-        justify-content: center;
-          align-items: center;
+ .box3 {
+  
+  flex-direction: row;
+  position: relative;
+display:flex;
+flex-wrap: nowrap;
+justify-items:space-between;
+align-items:center;
+justify-content: space-around;
+
+
           height: 100vh;
           width: 100%;
-          background: url(bg3.jpg);
+          background: url(bg3.jpg) no-repeat;
           background-size: cover;
  }
 
+
  .pic1 {
-    padding: 100px;
-    height: 65vh;
+
+   padding: 0%;
+    height: 45vh;
     width: auto;
-        margin-bottom: 20px;
+   float: left;
+        
   }
 
   .pic2 {
+   
     padding: 100px;
-    height: 65vh;
+    height: 45vh;
     width: auto;
-        margin-bottom: 20px;
+    float:left;
+       
   }
 
   .pic3 {
+   
     padding: 100px;
-    height: 65vh;
+    height: 45vh;
     width: auto;
-        margin-bottom: 20px;
+    float:left;
+        
   }
 
   li{list-style:none;}
